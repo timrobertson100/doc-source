@@ -1,0 +1,60 @@
+= Georeferencing Best Practices
+:authorcount: 2
+:author_1: A.D. Chapman
+:author_2: J.R Wieczorek
+:license: https://creativecommons.org/licenses/by/4.0/
+// Title
+:title-logo-image: img/western-honey-bee.jpg
+// Revision
+:revnumber: {git-metadata-sha-short}
+:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+// Contents, sections
+:toc: left
+:toclevels: 4
+:numbered:
+:sectnumlevels: 4
+:pagenums:
+// Set <<these-links>> to use the name rather than "Section 1.2"
+:xrefstyle: basic
+:icons: font
+// The value of the idprefix attribute (_ by default) is prepended.
+:idprefix:
+:idseparator: -
+// Content
+:stem:
+:marine: 🐠
+:ecological: 🌳
+:caves: 🐉
+// Shorthand for links to the other two documents
+:gqg: link:../../doc-georeferencing-quick-reference-guide/en/
+:gcm: link:../../doc-georeferencing-calculator-manual/en/
+
+ifdef::backend-html5[]
+languageLinks:combined[]
+endif::backend-html5[]
+
+:sectnums!:
+
+include::colophon.en.adoc[]
+
+:sectnums:
+
+include::0100-introduction.en.adoc[]
+
+include::0200-elements-for-describing-a-location.en.adoc[]
+
+include::0300-the-georeferencing-process.en.adoc[]
+
+include::0400-collaborative-georeferencing.en.adoc[]
+
+include::0500-sharing-data.en.adoc[]
+
+include::0600-maintaining-data-quality.en.adoc[]
+
+:sectnums!:
+
+include::glossary.en.adoc[]
+
+include::acknowledgements.en.adoc[]
+
+include::references.en.adoc[]
